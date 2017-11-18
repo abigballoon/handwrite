@@ -1,0 +1,64 @@
+.tianzi {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  margin: auto;
+}
+
+.character-block {
+  height: 6rem;
+  width: 6rem;
+
+  position: absolute;
+}
+
+.character-block.tl {
+  top: 0;
+  left: 0;
+
+  border-top: dashed 1px;
+  border-left: dashed 1px;
+}
+
+.character-block.tr {
+  top: 0;
+  left: 6rem;
+
+  border-top: dashed 1px;
+  border-left: dashed 1px;
+  border-right: dashed 1px;
+}
+
+.character-block.bl {
+  top: 6rem;
+  left: 0;
+
+  border-top: dashed 1px;
+  border-left: dashed 1px;
+  border-bottom: dashed 1px;
+}
+
+.character-block.br {
+  top: 6rem;
+  left: 6rem;
+
+  border: dashed 1px;
+}
+
+.border-black {
+  border-color: black!important;
+}
+
+.border-red {
+  border-color: #FD367E!important;
+}
+
+.character {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  font-size: 10rem;
+  line-height: 10rem;
+
+  z-index: 1;
+}
