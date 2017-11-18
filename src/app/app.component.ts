@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    private _words: string = "天天向上";
+    private _words: string = "好好学习 天天向上";
     private _max_length: number = 4;
     set words(words: string) {
         // this._words = words.slice(0, this._max_length);

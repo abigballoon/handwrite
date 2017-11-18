@@ -16,33 +16,33 @@
   top: 0;
   left: 0;
 
-  border-top: dashed 1px;
-  border-left: dashed 1px;
+  border-top: dashed 2px;
+  border-left: dashed 2px;
 }
 
 .character-block.tr {
   top: 0;
   left: 6rem;
 
-  border-top: dashed 1px;
-  border-left: dashed 1px;
-  border-right: dashed 1px;
+  border-top: dashed 2px;
+  border-left: dashed 2px;
+  border-right: dashed 2px;
 }
 
 .character-block.bl {
   top: 6rem;
   left: 0;
 
-  border-top: dashed 1px;
-  border-left: dashed 1px;
-  border-bottom: dashed 1px;
+  border-top: dashed 2px;
+  border-left: dashed 2px;
+  border-bottom: dashed 2px;
 }
 
 .character-block.br {
   top: 6rem;
   left: 6rem;
 
-  border: dashed 1px;
+  border: dashed 2px;
 }
 
 .border-black {

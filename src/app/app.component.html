@@ -2,13 +2,17 @@
 
 <div class="row mt-2">
   <div class="offset-md-1 col-10">
+    <div class="card">
+      <div class="card-body">
     <div class="input-group">
       <input type="text" class="form-control" [(ngModel)]='words'>
       <div ngbDropdown placement="bottom-right" class="input-group-btn">
-        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>{{ fontfamily }}</button>
+        <button class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>{{ fontfamily }}</button>
         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
           <button class="dropdown-item" *ngFor="let ff of fontfamilylist" (click)="choose(ff)">{{ ff }}</button>
         </div>
+      </div>
+    </div>
       </div>
     </div>
   </div>
